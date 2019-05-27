@@ -1,9 +1,7 @@
 import React from 'react';
 import gql from 'graphql-tag';
 import { Link } from '@reach/router';
-import { Spinner } from './Spinner';
 import { useQuery } from './Query';
-import { MyErrorComponent } from './ErrorBoundary';
 
 export const UserDetail = ({ login }) => {
   return (

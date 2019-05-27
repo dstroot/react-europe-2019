@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, Match } from '@reach/router';
 import { Spinner } from './Spinner';
-// import { Spinner } from './Spinner';
 
 export function Nav({ children, location }) {
   return (

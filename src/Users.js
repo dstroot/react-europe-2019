@@ -2,7 +2,7 @@ import React from 'react';
 import gql from 'graphql-tag';
 import { navigate } from '@reach/router';
 import { Spinner } from './Spinner';
-import { Query, useQuery } from './Query';
+import { useQuery } from './Query';
 
 const STARGAZERS = gql`
   query Stargazers($owner: String!, $name: String!) {
